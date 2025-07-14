@@ -18,7 +18,6 @@ package com.joy.apm.looperMonitor.core;
 import android.util.Log;
 
 import com.joy.apm.common.AbstractSampler;
-import com.kongfz.app.monitor.looperMonitor.core.BlockInfo;
 
 import java.io.BufferedReader;
 import java.io.FileInputStream;
