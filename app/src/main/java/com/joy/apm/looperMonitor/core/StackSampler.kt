@@ -16,7 +16,7 @@
 package com.joy.apm.looperMonitor.core
 
 import com.joy.apm.common.AbstractSampler
-import com.kongfz.app.monitor.looperMonitor.core.BlockInfo
+import com.joy.apm.looperMonitor.core.BlockInfo
 
 
 /**

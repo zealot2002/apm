@@ -1,4 +1,4 @@
-package com.kongfz.app.monitorrelease.logcat
+package com.joy.apm.logcatReader
 
 import java.io.BufferedReader
 import java.io.File

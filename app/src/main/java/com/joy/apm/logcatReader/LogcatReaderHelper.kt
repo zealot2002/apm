@@ -2,7 +2,7 @@ package com.joy.apm.logcatReader
 
 import com.joy.apm.common.FileUtils
 import com.joy.apm.common.Utils
-import com.kongfz.app.monitorrelease.logcat.LogcatReader
+import com.joy.apm.logcatReader.LogcatReader
 import java.util.concurrent.ExecutorService
 import java.util.concurrent.Executors
 

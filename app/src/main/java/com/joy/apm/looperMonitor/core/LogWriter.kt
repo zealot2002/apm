@@ -18,7 +18,7 @@ package com.joy.apm.looperMonitor.core
 import android.util.Log
 import com.joy.apm.common.FileUtils
 import com.joy.apm.logcatReader.Cfg
-import com.kongfz.app.monitor.looperMonitor.core.BlockInfo
+import com.joy.apm.looperMonitor.core.BlockInfo
 import java.io.BufferedWriter
 import java.io.FileOutputStream
 import java.io.OutputStreamWriter

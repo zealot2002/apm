@@ -9,7 +9,7 @@ import com.joy.apm.common.Logger
 import com.joy.apm.common.Toaster
 import com.joy.apm.looperMonitor.Cfg
 import com.joy.apm.looperMonitor.LooperMonitorHelper
-import com.kongfz.app.monitor.looperMonitor.core.BlockInfo
+import com.joy.apm.looperMonitor.core.BlockInfo
 
 internal class LooperMonitor : Printer {
     private var mStartTimestamp = 0L
