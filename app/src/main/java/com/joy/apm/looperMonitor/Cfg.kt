@@ -10,8 +10,7 @@ object Cfg {
         "com.networkbench.agent.impl",  //听云
         "leakcanary.",
         //系统
-        "android.widget.Editor", "android.view.Choreographer",  //once/16ms
-        //自定义白名单
-        "com.joy.app.msg.push.socket.HeartBeat"
+        "android.widget.Editor",
+        "android.view.Choreographer",  //once/16ms
     )
-} 
+}
