@@ -13,12 +13,12 @@ class KitSwitch {
         /**
          * StrictMode
          */
-        var bStrictMode = false
+        var bStrictMode = true
 
         /**
          * logcat采集，每一分钟产生一个日志文件，帮助定位非必现bug
          */
-        var bLogcatReader = false
+        var bLogcatReader = true
 
         /**
          * 主线程looper监控
@@ -27,7 +27,7 @@ class KitSwitch {
          *
          * 2，当主线程looper中的某一个event执行时间超过了阈值（默认300ms），会产生block日志文件
          */
-        var bLooperMonitor = false
+        var bLooperMonitor = true
 
         /**
          * 线程采样
@@ -38,6 +38,6 @@ class KitSwitch {
          *
          * 每隔15秒list一次
          */
-        var bThreadSampler = false
+        var bThreadSampler = true
     }
 } 
