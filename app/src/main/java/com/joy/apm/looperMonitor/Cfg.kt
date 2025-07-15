@@ -12,5 +12,7 @@ object Cfg {
         //系统
         "android.widget.Editor",
         "android.view.Choreographer",  //once/16ms
+
+        "io.reactivex.rxjava3.android.schedulers.HandlerScheduler"
     )
 }
