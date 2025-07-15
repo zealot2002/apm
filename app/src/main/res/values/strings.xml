@@ -1,3 +1,4 @@
 <resources>
-    <string name="app_name">apm</string>
+    <!-- Library specific strings -->
+    <string name="apm_lib_name">Android Performance Monitor</string>
 </resources>
