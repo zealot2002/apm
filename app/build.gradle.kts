@@ -9,7 +9,7 @@ android {
     compileSdk = 35
 
     defaultConfig {
-        minSdk = 26
+        minSdk = 21
         
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
         consumerProguardFiles("consumer-rules.pro")
@@ -57,7 +57,7 @@ afterEvaluate {
                 
                 groupId = "com.github.zealot2002"
                 artifactId = "apm"
-                version = "1.0.0"
+                version = "1.0.1"
                 
                 pom {
                     name.set("APM")
