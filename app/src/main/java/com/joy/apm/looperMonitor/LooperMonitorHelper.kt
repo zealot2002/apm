@@ -20,8 +20,9 @@ object LooperMonitorHelper {
         MyThreadFactory()
     )
 
-    fun init() {
+    fun init(whiteList:List<String>) {
         FileUtils.delOldFiles(Cfg.kitDirPath)
+        Cfg.whiteList = whiteList.toMutableList()
         executor.execute {
             LooperMonitor()
         }
