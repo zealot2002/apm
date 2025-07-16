@@ -82,7 +82,7 @@ internal class LooperMonitor : Printer {
         return (endTime - mStartTimestamp) >= Cfg.blockThreshold
     }
 
-    private fun match(ignoreList: Array<String>, str: String): Boolean {
+    private fun match(ignoreList: MutableList<String>, str: String): Boolean {
         for (s in ignoreList) {
             if (str.contains(s))
                 return true
