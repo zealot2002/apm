@@ -18,7 +18,7 @@ class Installer : ContentProvider() {
 
         if (KitSwitch.bStrictMode) StrictModeHelper.init()
         if (KitSwitch.bLogcatReader) LogcatReaderHelper.init()
-        if (KitSwitch.bLooperMonitor) LooperMonitorHelper.init()
+        if (KitSwitch.bLooperMonitor) LooperMonitorHelper.init(null)
         if (KitSwitch.bThreadSampler) ThreadSampler().start()
         return true
     }

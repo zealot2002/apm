@@ -3,7 +3,6 @@ package com.joy.apm.looperMonitor
 import com.joy.apm.common.FileUtils
 import com.joy.apm.common.Toaster
 import com.joy.apm.common.Utils
-import com.joy.apm.logcatReader.Cfg
 import com.joy.apm.looperMonitor.core.LooperMonitor
 import java.util.concurrent.LinkedBlockingQueue
 import java.util.concurrent.ThreadFactory
@@ -20,9 +19,11 @@ object LooperMonitorHelper {
         MyThreadFactory()
     )
 
-    fun init(whiteList:List<String>) {
+    fun init(whiteList:List<String>?) {
         FileUtils.delOldFiles(Cfg.kitDirPath)
-        Cfg.whiteList = whiteList.toMutableList()
+        whiteList?.let {
+            Cfg.whiteList = whiteList.toMutableList()
+        }
         executor.execute {
             LooperMonitor()
         }
